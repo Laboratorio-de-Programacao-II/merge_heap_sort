@@ -4,8 +4,6 @@ O repositório contém a estrutura base de um exercício sobre **algoritmos de o
 - `ordenacao.c`: implementações das funções com algumas que você deverá implementar
 - `main.c`: programa principal (já implementado)
 
----
-
 ## Sua tarefa
 
 Implemente as duas funções marcadas com `/* IMPLEMENTAR */` em `ordenacao.c`.
@@ -27,8 +25,6 @@ direita:  [2, 4, 6]
 A intercalação resulta em  [1, 2, 3, 4, 5, 6]
 ```
 
----
-
 ### 2. Heap Sort
 
 ```c
@@ -39,8 +35,6 @@ Ordena o vetor usando um **min-heap**. As funções `inserir_heap` e `retirar_he
 
 - `inserir_heap(heap, &sz, valor)`: insere `valor` no heap mantendo a propriedade do min-heap.
 - `retirar_heap(heap, &sz)`: remove e retorna o menor elemento do heap.
-
----
 
 ## Como compilar e executar
 
